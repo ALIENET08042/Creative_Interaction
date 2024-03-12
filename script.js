@@ -1,0 +1,11 @@
+document.write("Hello world!");
+function sayHello(){
+  var response = prompt("What's your name?");
+  alert("Hello" + response + ",have a nice day!");
+};
+
+function showTopic(){
+  var x = document.getElementById('demo');
+  x.style.fontsize = "25px";
+  x.style.color = "red";
+};
